@@ -49,6 +49,10 @@
                     <groupId>com.fasterxml.jackson.module</groupId>
                     <artifactId>jackson-module-parameter-names</artifactId>
                 </exclusion>
+                <exclusion>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter-tomcat</artifactId>
+                </exclusion>
             </exclusions>
         </dependency>
 
