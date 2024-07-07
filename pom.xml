@@ -20,7 +20,6 @@
         <java.version>17</java.version>
     </properties>
 
-    <!-- commented slf4j -->
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
