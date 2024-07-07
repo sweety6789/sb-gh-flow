@@ -33,3 +33,6 @@ jobs:
     - name: Run tests
       run: mvn -B test
 
+    - name: Run Checkstyle
+      run: mvn checkstyle:check
+
